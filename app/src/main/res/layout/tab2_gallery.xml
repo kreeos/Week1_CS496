@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        tools:context=".FullImageActivity">
+
+        <ImageView android:id="@+id/image_View"
+            android:adjustViewBounds="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:scaleType="centerInside"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <GridView
+            android:id="@+id/grid_View"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerVertical = "true"
+            android:layout_centerHorizontal = "true"
+            android:columnWidth="100dp"
+            android:horizontalSpacing="5dp"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+

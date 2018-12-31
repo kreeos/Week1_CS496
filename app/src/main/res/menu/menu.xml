@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/menu1"
+        />
+
+    <item
+        android:id="@+id/item1"
+        android:title="@string/menu2"
+        />
+
+    <item android:id="@+id/menu_koen"
+        android:title="한국어 → 영어"/>
+    <item android:id="@+id/menu_enko"
+        android:title="영어 → 한국어"/>
+    <item android:id="@+id/menu_kojp"
+        android:title="한국어 → 일본어"/>
+    <item android:id="@+id/menu_jpko"
+        android:title="일본어 → 한국어"/>
+    <item android:id="@+id/menu_kocn"
+        android:title="한국어 → 중국어"/>
+    <item android:id="@+id/menu_cnko"
+        android:title="중국어 → 한국어"/>
+
+
+    <item android:title="텍스트 뷰 배경 변경 >>" >
+        <menu>
+            <item android:id="@+id/item_tvred"
+                android:title="RED"/>
+            <item android:id="@+id/item_tvgreen"
+                android:title="GREEN"/>
+            <item android:id="@+id/item_tvblue"
+                android:title="BLUE"/>
+        </menu>
+    </item>
+</menu>

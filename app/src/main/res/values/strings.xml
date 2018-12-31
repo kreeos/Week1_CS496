@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Welcome to KOREA :)</string>
+    <string name="menu1">통화내역</string>
+    <string name="menu2">주소록</string>
+    <string name="action_settings">Settings</string>
+    <string name="koen_title">영어->한글 번역기</string>
+    <string name="title">KOREA</string>
+</resources>
